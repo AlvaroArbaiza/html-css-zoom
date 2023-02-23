@@ -3,7 +3,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: 1px dotted black;
 }
 
 .flex {
@@ -20,6 +19,10 @@
 
 .align-i-center {
     align-items: center;
+}
+
+.gap {
+    gap: 10px;
 }
 
 li {
@@ -44,6 +47,10 @@ img {
     display: block;
 }
 
+.align-self-center {
+    align-self: center;
+}
+
 .font-12 {
     font-size: 12px;
 }
@@ -54,4 +61,8 @@ img {
 
 a {
     text-decoration: none;
+}
+
+.c-green {
+    color: rgb(75, 199, 0);
 }

@@ -23,7 +23,7 @@ main #icon-main div a i#arrows{
 
 main div#cards {
     gap: 10px;
-    padding: 80px 60px;
+    padding: 60px 60px 80px;
 }
 
 main #cards div.profile {
@@ -45,7 +45,7 @@ footer {
     bottom: 0;
     right: 0;
     left: 0;
-    height: 50px;
+    height: 80px;
     background-color: rgb(34, 34, 34);
 }
 
@@ -53,3 +53,22 @@ footer #container-footer {
     flex-basis: 100%;
 }
 
+footer #container-footer div ul li {
+    text-align: center;
+}
+
+footer #container-footer div ul li a i.font-24 {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+footer #container-footer div#end-meeting {
+    color: rgb(253, 4, 4);
+    background-color: rgb(74, 74, 74);
+    height: 80px;
+    padding: 0 20px;
+}
+
+footer #container-footer div ul li a span.name-icon.font-12 {
+    display: block;
+}
