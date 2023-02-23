@@ -4,6 +4,7 @@ main {
     background-color: rgb(0, 0, 0);
 }
 
+/* Icone Speaker View */
 main div#icon-main {
     top: 2px;
     right: 2px;
@@ -21,6 +22,7 @@ main #icon-main div a i#arrows{
     transform: rotate(-45deg);
 }
 
+/* Immagini Profilo */
 main div#cards {
     gap: 10px;
     padding: 60px 60px 80px;
@@ -53,9 +55,11 @@ footer #container-footer {
     flex-basis: 100%;
 }
 
+/* Icone */
 footer div#left-footer {
     padding-left: 10px ;
 }
+
 footer #container-footer div ul li {
     text-align: center;
 }
@@ -65,13 +69,14 @@ footer #container-footer div ul li a i.font-24 {
     margin-bottom: 5px;
 }
 
+footer #container-footer div ul li a span.name-icon.font-12 {
+    display: block;
+}
+
+/* End Meeting */
 footer #container-footer div#end-meeting {
     color: rgb(253, 4, 4);
     background-color: rgb(74, 74, 74);
     height: 80px;
     padding: 0 20px;
-}
-
-footer #container-footer div ul li a span.name-icon.font-12 {
-    display: block;
 }
