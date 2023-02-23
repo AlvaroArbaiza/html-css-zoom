@@ -1,22 +1,42 @@
+/* MAIN */
 main {
     height: 100vh ;
-    background-color: aquamarine;
-    
+    background-color: rgb(0, 0, 0);
 }
 
 main div#icon-main {
     top: 2px;
     right: 2px;
+    justify-content: space-between;
+    gap: 2px;
+}
+
+main #icon-main .box-grey {
+    padding: 2px 1px;
+    background-color: rgb(82, 82, 82);
+    border-radius: 5px;
+}
+
+main #icon-main div a i#arrows{
+    transform: rotate(-45deg);
 }
 
 main div#cards {
-    justify-content: space-between;
     gap: 10px;
     padding: 80px 60px;
 }
 
 main #cards div.profile {
     width: calc((100% / 7) - 10px);
+    color: white;
+}
+
+main #cards .profile div.name {
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0%, 0%, 0%, 0.3);
+    border: none;
+    padding: 2px 2px;
 }
 
 /* FOOTER */
@@ -26,5 +46,10 @@ footer {
     right: 0;
     left: 0;
     height: 50px;
-    background-color: black;
+    background-color: rgb(34, 34, 34);
 }
+
+footer #container-footer {
+    flex-basis: 100%;
+}
+
