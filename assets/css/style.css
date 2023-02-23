@@ -1,0 +1,30 @@
+main {
+    height: 100vh ;
+    background-color: aquamarine;
+    
+}
+
+main div#icon-main {
+    top: 2px;
+    right: 2px;
+}
+
+main div#cards {
+    justify-content: space-between;
+    gap: 10px;
+    padding: 80px 60px;
+}
+
+main #cards div.profile {
+    width: calc((100% / 7) - 10px);
+}
+
+/* FOOTER */
+footer {
+    width: 100%;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 50px;
+    background-color: black;
+}

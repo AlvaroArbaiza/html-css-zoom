@@ -3,10 +3,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    border: 1px dotted black;
 }
 
 .flex {
     display: flex;
+}
+
+.wrap {
+    flex-wrap: wrap;
 }
 
 li {
@@ -20,4 +25,13 @@ li {
 
 .absolute {
     position: absolute;
+}
+
+.fixed {
+    position: fixed;
+}
+
+img {
+    max-width: 100%;
+    display: block;
 }
